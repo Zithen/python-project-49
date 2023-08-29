@@ -1,3 +1,6 @@
+ #!/usr/bin/env python3.10
+
+
 def welcome():
     print('Welcome to the Brain Games!')
 
