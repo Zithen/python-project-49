@@ -18,8 +18,8 @@ def engine(game_params_dict):
         user_answer = string('Your answer: ')
 
         if correct_answer != user_answer:
-            print(f'{user_answer} is wrong answer ;(.', end=' ')
-            print(f'Correct answer was {correct_answer}.')
+            print(f'"{user_answer}" is wrong answer ;(.', end=' ')
+            print(f'Correct answer was "{correct_answer}".')
             print(f"Let's try again, {user_name}!")
             return 1
         else:
