@@ -13,9 +13,9 @@ def engine(game):
     for _ in range(questions_to_ask):
         question = game.get('question')
         correct_answer = game.get('correct_answer')
-        user_answer = game.get('user_answer')
 
         print(f'Question: {question}')
+        user_answer = string('Your answer: ')
 
         if correct_answer != user_answer:
             print(f'{user_answer} is wrong answer ;(.', end=' ')
