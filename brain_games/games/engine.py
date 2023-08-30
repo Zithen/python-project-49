@@ -1,19 +1,18 @@
 from prompt import string
 
 
-def engine(game_params_dict):
+def engine(game):
     questions_to_ask = 3
     print('Welcome to the Brain Games!')
 
     user_name = string('May I have your name? ')
     print(f'Hello, {user_name}')
 
-    print(game_params_dict.get('rules'))
+    print(game.RULES)
 
     for _ in range(questions_to_ask):
-        question = game_params_dict.get('question')
-        correct_answer = game_params_dict.get('correct_answer')
-
+        question = game.question()
+        correct_answer = game.game(question)
         print(f'Question: {question}')
         user_answer = string('Your answer: ')
 
