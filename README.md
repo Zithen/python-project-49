@@ -9,7 +9,8 @@ https://semver.org/
 
 ### Project Description:
 Set of terminal games:
-  * Is the number odd or even
+  1 Is the number odd or even
+    * Run brain-even
     * https://asciinema.org/a/bpSQbw5Klj0kyFyIOXKSAqjE0 "Gameplay"
 
 Requirements:
