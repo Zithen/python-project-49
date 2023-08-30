@@ -9,7 +9,7 @@ def question():
     operand2 = randint(1, 1000)
     operators = ['+', '-', '*']
     operator = operators[randint(0, 2)]
-    expression = operand1 + ' ' + operator + ' ' + operand2
+    expression = str(operand1) + ' ' + operator + ' ' + str(operand2)
     return expression
 
 
