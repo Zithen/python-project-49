@@ -10,6 +10,7 @@ https://semver.org/
 ### Project Description:
 Set of terminal games:
   * Is the number odd or even
+    * https://asciinema.org/a/bpSQbw5Klj0kyFyIOXKSAqjE0 "Gameplay"
 
 Requirements:
   * Python 3.x
