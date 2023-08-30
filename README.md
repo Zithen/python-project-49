@@ -16,4 +16,4 @@ Requirements:
   * PIP
 
 Installation:
-  * python -m pip install --user dist/*.whl
+  * python -m pip install --user hexlet_code-0.2.3-py3-none-any.whl
