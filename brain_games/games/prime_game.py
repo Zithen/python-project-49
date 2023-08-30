@@ -6,8 +6,7 @@ RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def question():
-    num = randint(1, 100)
-    return num, None
+    return randint(1, 100), None
 
 
 def game(question):
