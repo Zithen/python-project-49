@@ -16,6 +16,7 @@
 
 * ##### Installation:
   * Clone the repo
+  * make install
   * make build
   * make package-install
   
