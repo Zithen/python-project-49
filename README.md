@@ -20,4 +20,4 @@ https://semver.org/
 * ##### Games list:
   * ###### Is the number odd or even
     * Run: brain-even
-    * Gameplay: https://asciinema.org/a/bpSQbw5Klj0kyFyIOXKSAqjE0
+    * [Gameplay asciinema](https://asciinema.org/a/bpSQbw5Klj0kyFyIOXKSAqjE0)
