@@ -37,7 +37,12 @@
     * Run: brain-even
     * [Gameplay asciinema](https://asciinema.org/a/bpSQbw5Klj0kyFyIOXKSAqjE0)
 
-  2. ###### Calc
+  1. ###### Calc
     * In this game you have to provide correct expression outcome
     * Run: brain-calc
+    * [Gameplay asciinema](https://asciinema.org/a/LQwk3TMs03OZb6OXOep6lNOss)
+
+  1. ###### Highest Common Divider
+    * In this game you have to provide highest common divider for 2 numbers 
+    * Run: brain-gcd
     * [Gameplay asciinema](https://asciinema.org/a/LQwk3TMs03OZb6OXOep6lNOss)
