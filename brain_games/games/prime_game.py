@@ -13,7 +13,7 @@ def question():
 def game(question):
     num = question
     question = ceil(int(question) / 2)
-    
+
     for _ in range(question, 1, -1):
         if num % _ == 0:
             correct_answer = 'no'
@@ -22,4 +22,3 @@ def game(question):
             correct_answer = 'yes'
 
     return correct_answer
-    
