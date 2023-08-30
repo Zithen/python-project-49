@@ -1,4 +1,4 @@
-from random import randint
+from random import randint, choice
 
 
 RULES = 'What is the result of the expression?'
@@ -7,8 +7,7 @@ RULES = 'What is the result of the expression?'
 def question():
     operand1 = randint(1, 1000)
     operand2 = randint(1, 1000)
-    operators = ['+', '-', '*']
-    operator = operators[randint(0, 2)]
+    operator = choice(['+', '-', '*'])
     expression = str(operand1) + ' ' + operator + ' ' + str(operand2)
     return expression, None
 
