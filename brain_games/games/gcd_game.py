@@ -17,8 +17,8 @@ def game(question):
         nums_list_final.append(int(_))
     nums_list_final.sort()
 
-    for devider in range(nums_list_final[0], 0, -1):
+    for highest_devider in range(nums_list_final[0], 0, -1):
         num1 = nums_list_final[0]
         num2 = nums_list_final[1]
-        if num1 % devider == 0 and num2 % devider == 0:
-            return str(devider)
+        if num1 % highest_devider == 0 and num2 % highest_devider == 0:
+            return str(highest_devider)
