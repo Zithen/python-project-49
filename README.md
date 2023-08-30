@@ -11,16 +11,19 @@ https://semver.org/
 #### Set of terminal games:
 
 * ##### Requirements:
-  * Python 3.x
-  * PIP
+  * Python >3.10
+  * PIP >23.x
+  * Poetry >1.4.x
 
 * ##### Installation:
-  * python -m pip install --user hexlet_code-0.2.3-py3-none-any.whl
+  * Clone the repo
+  * make build
+  * make package-install
   
 * ##### Games list:
   1. ###### Odd or Even
     * Run: brain-even
-    * [Gameplay asciinema](https://asciinema.org/a/bpSQbw5Klj0kyFyIOXKSAqjE0)
+    * https://asciinema.org/a/bpSQbw5Klj0kyFyIOXKSAqjE0
 
   2. ###### Calc
     * Run: brain-calc
