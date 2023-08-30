@@ -23,7 +23,7 @@ https://semver.org/
 * ##### Games list:
   1. ###### Odd or Even
     * Run: brain-even
-    * https://asciinema.org/a/bpSQbw5Klj0kyFyIOXKSAqjE0
+    * [Gameplay asciinema](https://asciinema.org/a/bpSQbw5Klj0kyFyIOXKSAqjE0)
 
   2. ###### Calc
     * Run: brain-calc
