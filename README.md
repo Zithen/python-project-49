@@ -45,4 +45,4 @@
   3. ###### Highest Common Divider
     * In this game you have to provide highest common divider for 2 numbers 
     * Run: brain-gcd
-    * [Gameplay asciinema](https://asciinema.org/a/LQwk3TMs03OZb6OXOep6lNOss)
+    * [Gameplay asciinema](https://asciinema.org/a/TTdEVt3yChriArzsTSFU6y38F)
