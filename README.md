@@ -40,3 +40,4 @@
   2. ###### Calc
     * In this game you have to provide correct expression outcome
     * Run: brain-calc
+    * [Gameplay asciinema](https://asciinema.org/a/LQwk3TMs03OZb6OXOep6lNOss)
