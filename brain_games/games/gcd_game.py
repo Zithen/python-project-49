@@ -5,8 +5,8 @@ RULES = 'Find the greatest common divisor of given numbers.'
 
 
 def question():
-    num1 = randint(1, 1000)
-    num2 = randint(1, 1000)
+    num1 = randint(1, 100)
+    num2 = randint(1, 100)
     return str(num1) + ' ' + str(num2)
 
 
