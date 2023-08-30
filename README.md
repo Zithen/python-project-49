@@ -6,3 +6,14 @@
 
 ### Semantic versioning:
 https://semver.org/
+
+### Project Description:
+Set of terminal games:
+  * Is the number odd or even
+
+Requirements:
+  * Python 3.x
+  * PIP
+
+Installation:
+  * python -m pip install --user dist/*.whl
