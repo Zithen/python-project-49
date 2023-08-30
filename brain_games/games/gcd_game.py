@@ -18,5 +18,7 @@ def game(question):
     nums_list_final.sort()
 
     for devider in range(nums_list_final[0], 0, -1):
-        if nums_list_final[1] % devider == 0 and nums_list_final[0] % devider == 0:
+        num1 = nums_list_final[0]
+        num2 = nums_list_final[1]
+        if num1 % devider == 0 and num2 % devider == 0:
             return str(devider)
