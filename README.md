@@ -10,14 +10,14 @@ https://semver.org/
 ### Project Description:
 #### Set of terminal games:
 
-* Requirements:
+* ##### Requirements:
   * Python 3.x
   * PIP
 
-* Installation:
+* ##### Installation:
   * python -m pip install --user hexlet_code-0.2.3-py3-none-any.whl
   
-* Games list:
+* ##### Games list:
   * Is the number odd or even
     * Run: brain-even
     * Gameplay: https://asciinema.org/a/bpSQbw5Klj0kyFyIOXKSAqjE0
