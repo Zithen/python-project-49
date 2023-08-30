@@ -1,5 +1,4 @@
 from random import randint
-from math import gcd
 
 
 RULES = 'Find the greatest common divisor of given numbers.'
@@ -12,7 +11,15 @@ def question():
 
 
 def game(question):
-    num1 = int(question[0])
-    num2 = int(question[1])
+    nums_list_final = []
+    nums_list = question.split()
+    for _ in nums_list:
+        nums_list_final.append(int(_))
+    nums_list_final.sort()
 
-    return str(gcd(num1, num2))
+    for greatest_devisor in range(nums_list_final[0], 0, -1):
+        num1 = nums_list_final[0]
+        num2 = nums_list_final[1]
+        
+        if num1 % greatest_devisor == 0 and num2 % greatest_devisor == 0:
+            return str(greatest_devisor)
