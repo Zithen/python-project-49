@@ -22,8 +22,10 @@
   
 * ##### Games list:
   1. ###### Odd or Even
+    * In this game you have to point if the number is odd or even
     * Run: brain-even
     * [Gameplay asciinema](https://asciinema.org/a/bpSQbw5Klj0kyFyIOXKSAqjE0)
 
   2. ###### Calc
+    * In this game you have to provide correct expression value
     * Run: brain-calc
