@@ -8,7 +8,8 @@
 
 ---
 
-### [Semantic versioning](https://semver.org/)
+### [Semantic versioning](https://semver.org/):
+1.0.0
 
 ---
 
