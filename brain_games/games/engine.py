@@ -1,8 +1,10 @@
 from prompt import string
 
 
+QUESTIONS_TO_ASK = 3
+
+
 def engine(game):
-    questions_to_ask = 3
     print('Welcome to the Brain Games!')
 
     user_name = string('May I have your name? ')
@@ -10,7 +12,7 @@ def engine(game):
 
     print(game.RULES)
 
-    for _ in range(questions_to_ask):
+    for _ in range(QUESTIONS_TO_ASK):
         question = game.question()
         correct_answer = game.game(question)
         print(f'Question: {question}')
