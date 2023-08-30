@@ -1,6 +1,9 @@
 from random import randint
 
 
+RULES = 'Answer "yes" if the number is even, otherwise answer "no".'
+
+
 def question():
     return randint(1, 1000)
 
@@ -14,6 +17,3 @@ def game(question):
         correct_answer = 'no'
 
     return correct_answer
-
-
-RULES = 'Answer "yes" if the number is even, otherwise answer "no".'
