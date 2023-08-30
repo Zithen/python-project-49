@@ -17,7 +17,7 @@
 
 * ##### Requirements:
   * git >2.x
-  * Python >3.10
+  * Python 3.10
   * PIP >23.x
   * Poetry >1.4.x
 
