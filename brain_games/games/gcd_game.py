@@ -12,10 +12,7 @@ def question():
 
 
 def game(question):
-    nums_list_final = []
-    nums_list = question.split()
+    num1 = int(question[0])
+    num2 = int(question[1])
 
-    for _ in nums_list:
-        nums_list_final.append(int(_))
-
-    return str(gcd(nums_list_final))
+    return str(gcd(num1, num2))
