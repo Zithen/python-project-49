@@ -46,3 +46,8 @@
     * In this game you have to find greatest common divisor for 2 numbers 
     * Run: brain-gcd
     * [Gameplay asciinema](https://asciinema.org/a/TTdEVt3yChriArzsTSFU6y38F)
+
+  4. ###### Progression
+    * In this game you have to find missing progression element 
+    * Run: brain-progression
+    * [Gameplay asciinema](https://asciinema.org/a/gyghAKDaQg5OMwmlxReMjdB2z)
