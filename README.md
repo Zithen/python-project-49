@@ -38,5 +38,5 @@
     * [Gameplay asciinema](https://asciinema.org/a/bpSQbw5Klj0kyFyIOXKSAqjE0)
 
   2. ###### Calc
-    * In this game you have to provide correct expression value
+    * In this game you have to provide correct expression outcome
     * Run: brain-calc
