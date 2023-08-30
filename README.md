@@ -55,4 +55,4 @@
   5. ###### Is Prime
     * In this game you have to point out if the number is prime 
     * Run: brain-prime
-    * [Gameplay asciinema](https://asciinema.org/a/gyghAKDaQg5OMwmlxReMjdB2z)
+    * [Gameplay asciinema](https://asciinema.org/a/rrOVluBP5gOAkDmhlZGayuIgB)
