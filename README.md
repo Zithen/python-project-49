@@ -8,7 +8,7 @@
 https://semver.org/
 
 ### Project Description:
-Set of terminal games:
+#### Set of terminal games:
 
 * Requirements:
   * Python 3.x
