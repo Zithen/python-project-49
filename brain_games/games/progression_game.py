@@ -12,10 +12,8 @@ def question():
     for _ in range(1, 10):
         progression_list.append(progression_list[_ - 1] + progression_step)
 
+    answer = progression_list[element_to_hide]
     progression_list[element_to_hide] = '..'
+    question_string = ' '.join(str(elem) for elem in progression_list)
 
-    return ' '.join(str(elem) for elem in progression_list)
-
-
-def game(question):
-    return 1
+    return question_string, str(answer)

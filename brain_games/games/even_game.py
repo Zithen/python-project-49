@@ -5,7 +5,7 @@ RULES = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def question():
-    return randint(1, 1000)
+    return randint(1, 1000), None
 
 
 def game(question):

@@ -10,7 +10,7 @@ def question():
     operators = ['+', '-', '*']
     operator = operators[randint(0, 2)]
     expression = str(operand1) + ' ' + operator + ' ' + str(operand2)
-    return expression
+    return expression, None
 
 
 def game(question):
