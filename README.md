@@ -33,7 +33,7 @@
 
 * ##### Games list:
   1. ###### Odd or Even
-    * In this game you have to point if the number is odd or even
+    * In this game you have to point out if the number is odd or even
     * Run: brain-even
     * [Gameplay asciinema](https://asciinema.org/a/bpSQbw5Klj0kyFyIOXKSAqjE0)
 
@@ -50,4 +50,9 @@
   4. ###### Progression
     * In this game you have to find missing progression element 
     * Run: brain-progression
+    * [Gameplay asciinema](https://asciinema.org/a/gyghAKDaQg5OMwmlxReMjdB2z)
+
+  5. ###### Is Prime
+    * In this game you have to point out if the number is prime 
+    * Run: brain-prime
     * [Gameplay asciinema](https://asciinema.org/a/gyghAKDaQg5OMwmlxReMjdB2z)
