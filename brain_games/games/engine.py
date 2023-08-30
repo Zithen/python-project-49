@@ -13,11 +13,8 @@ def engine(game):
     print(game.RULES)
 
     for _ in range(QUESTIONS_TO_ASK):
-        question, answer = game.question()
-        if answer is None:
-            correct_answer = game.game(question)
-        else:
-            correct_answer = answer
+        question, answer = game.question()    
+        correct_answer = answer or game.game(question)
         print(f'Question: {question}')
         user_answer = string('Your answer: ')
 
