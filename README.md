@@ -4,7 +4,7 @@
 ### Code Climate:
 [![Maintainability](https://api.codeclimate.com/v1/badges/d1721ff5250a7261cc26/maintainability)](https://codeclimate.com/github/Zithen/python-project-49/maintainability)
 
-### <a href="https://semver.org/" target="_blank">Semantic Versioning</a>
+### [Semantic versioning](https://semver.org/)
 
 ### Project Description:
 #### Set of terminal games:
