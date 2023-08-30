@@ -18,6 +18,9 @@ https://semver.org/
   * python -m pip install --user hexlet_code-0.2.3-py3-none-any.whl
   
 * ##### Games list:
-  1. ###### Is the number odd or even
+  1. ###### Odd or Even
     * Run: brain-even
     * [Gameplay asciinema](https://asciinema.org/a/bpSQbw5Klj0kyFyIOXKSAqjE0)
+
+  2. ###### Calc
+    * Run: brain-calc
