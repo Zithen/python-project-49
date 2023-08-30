@@ -9,7 +9,7 @@
 ---
 
 ### [Semantic versioning](https://semver.org/):
-1.0.0
+1.0.1
 
 ---
 
