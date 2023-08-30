@@ -15,6 +15,7 @@ def engine(game):
     for _ in range(QUESTIONS_TO_ASK):
         question, answer = game.question()
         correct_answer = answer or game.game(question)
+
         print(f'Question: {question}')
         user_answer = string('Your answer: ')
 

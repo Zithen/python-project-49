@@ -8,9 +8,9 @@ def question():
     operand1 = randint(1, 1000)
     operand2 = randint(1, 1000)
     operator = choice(['+', '-', '*'])
-    
+
     expression = str(operand1) + ' ' + operator + ' ' + str(operand2)
-    
+
     return expression, None
 
 
