@@ -7,13 +7,16 @@ RULES = 'Find the greatest common divisor of given numbers.'
 def question():
     num1 = randint(1, 1000)
     num2 = randint(1, 1000)
-    return [num1, num2]
+    return str(num1) + ' ' + str(num2)
 
 
 def game(question):
-    num_list = question()
-    num_list = sorted.num_list
+    nums_list_final = []
+    nums_list = question.split()
+    for _ in nums_list:
+        nums_list_final.append(int(_))
+    nums_list_final.sort()
 
-    for _ in (num_list[0], 1):
-        if num_list[1] % _ == 0:
-            return _
+    for devider in range(nums_list_final[0], 0, -1):
+        if nums_list_final[1] % devider == 0 and nums_list_final[0] % devider == 0:
+            return str(devider)
