@@ -17,8 +17,8 @@ def game(question):
         nums_list_final.append(int(_))
     nums_list_final.sort()
 
-    for highest_divisor in range(nums_list_final[0], 0, -1):
+    for greatest_divisor in range(nums_list_final[0], 0, -1):
         num1 = nums_list_final[0]
         num2 = nums_list_final[1]
-        if num1 % highest_divisor == 0 and num2 % highest_divisor == 0:
-            return str(highest_divisor)
+        if num1 % greatest_divisor == 0 and num2 % greatest_divisor == 0:
+            return str(greatest_divisor)
