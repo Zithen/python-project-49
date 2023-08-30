@@ -14,6 +14,12 @@ def game(question):
     num = question
     question = ceil(int(question) / 2)
     
-    for _ in range (1, question):
-        return 'yes' if num % _ == 0 else 'no'
+    for _ in range(question, 1, -1):
+        if num % _ == 0:
+            correct_answer = 'no'
+            break
+        else:
+            correct_answer = 'yes'
+
+    return correct_answer
     
