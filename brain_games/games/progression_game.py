@@ -4,7 +4,7 @@ from random import randint
 RULES = 'What number is missing in the progression?'
 
 
-def question():
+def game_logic():
     progression_first_elem = randint(1, 10)
     progression_list = [progression_first_elem]
     progression_step = randint(1, 10)
