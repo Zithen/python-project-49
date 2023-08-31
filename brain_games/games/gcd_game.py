@@ -1,25 +1,14 @@
 from random import randint
+from math import gcd
 
 
 RULES = 'Find the greatest common divisor of given numbers.'
 
 
-def question():
-    num1 = randint(1, 100)
-    num2 = randint(1, 100)
-    return str(num1) + ' ' + str(num2), None
+def game_logic():
+    num1 = randint(1, 10)
+    num2 = randint(1, 10)
+    nums_string = str(num1) + ' ' + str(num2)
+    correct_answer = gcd(num1, num2)
 
-
-def game(question):
-    nums_list_final = []
-    nums_list = question.split()
-    for _ in nums_list:
-        nums_list_final.append(int(_))
-    nums_list_final.sort()
-
-    for greatest_devisor in range(nums_list_final[0], 0, -1):
-        num1 = nums_list_final[0]
-        num2 = nums_list_final[1]
-
-        if num1 % greatest_devisor == 0 and num2 % greatest_devisor == 0:
-            return str(greatest_devisor)
+    return nums_string, str(correct_answer)
