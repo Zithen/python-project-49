@@ -9,13 +9,14 @@
 ---
 
 ### [Semantic versioning](https://semver.org/):
-2.1.3
+2.1.4
 #### Changes:
 * 2.0.0: Change engine logic to reduce amount of code in game logic
 * 2.1.0: Change prime game logic to avoid error when num to check is 1 or 2
 * 2.1.1: Fix minor issues
 * 2.1.2: Fix prime game logic to fit case when num = 1
 * 2.1.3: Expand question generator limits in prime game
+* 2.1.4: Fix minor issues
 
 ---
 
