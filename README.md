@@ -9,9 +9,10 @@
 ---
 
 ### [Semantic versioning](https://semver.org/):
-2.0.0
+2.0.1
 #### Changes:
 2.0.0: Engine logic to reduce amount of code in game logic
+2.0.1: Change prime game logic to avoid error when num to check is 1 or 2
 
 ---
 

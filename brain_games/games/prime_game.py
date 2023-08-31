@@ -7,7 +7,8 @@ RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 def game_logic():
     num = randint(1, 20)
-    question = ceil(int(num) / 2)
+    question = ceil(num / 2)
+    correct_answer = 'yes' # if num is 1 or 2 will avoid cycle
 
     for _ in range(question, 1, -1):
         if num % _ == 0:
@@ -16,4 +17,4 @@ def game_logic():
         else:
             correct_answer = 'yes'
 
-    return num, correct_answer
+    return str(num), correct_answer
