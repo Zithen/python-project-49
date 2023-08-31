@@ -9,7 +9,9 @@
 ---
 
 ### [Semantic versioning](https://semver.org/):
-1.0.3
+2.0.0
+#### Changes:
+2.0.0: Engine logic to reduce amount of code in game logic
 
 ---
 
