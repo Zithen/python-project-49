@@ -5,13 +5,9 @@ from math import ceil
 RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def question():
-    return randint(1, 100), None
-
-
-def game(question):
-    num = question
-    question = ceil(int(question) / 2)
+def game_logic():
+    num = randint(1, 20)
+    question = ceil(int(num) / 2)
 
     for _ in range(question, 1, -1):
         if num % _ == 0:
@@ -20,4 +16,4 @@ def game(question):
         else:
             correct_answer = 'yes'
 
-    return correct_answer
+    return num, correct_answer
