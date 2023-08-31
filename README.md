@@ -11,7 +11,7 @@
 ### [Semantic versioning](https://semver.org/):
 2.1.1
 #### Changes:
-* 2.0.0: Engine logic to reduce amount of code in game logic
+* 2.0.0: Change engine logic to reduce amount of code in game logic
 * 2.1.0: Change prime game logic to avoid error when num to check is 1 or 2
 * 2.1.1: Fix minor issues
 
